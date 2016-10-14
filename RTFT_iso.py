@@ -36,7 +36,7 @@ class RTFT(object):
         self.max_factor = float(self.config.get('main', 'max_factor'))
         self.force_scale = float(self.config.get('main', 'force_scale'))
         self.threshold = float(self.config.get('main', 'threshold'))
-        self.hold_time = float(self.config.get('main', 'hold_time'))       
+        self.hold_time = float(self.config.get('main', 'hold_time'))
     
     def setup_dragonfly(self, server):
         subscriptions = [MT_EXIT, \
